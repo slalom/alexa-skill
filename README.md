@@ -2,7 +2,7 @@
 
 Build the Alexa Interaction Model (the front-end) and point it to the back-end lambda function.
 
-![](https://github.com/AliRezaeian/alexaskill/blob/master/images/alexaarchitecture.png?raw=true)
+![](https://github.com/slalom/alexa-skill/blob/main/images/alexaarchitecture.png?raw=true)
 
 ## Before you Begin
 You will need an account with [developer.amazon.com](http://developer.amazon.com/).
@@ -21,15 +21,15 @@ Go to [developer.amazon.com](http://developer.amazon.com/) and sign in with the 
 6. Select **Alexa-Hosted(Node.js)** to host your backend code to the AWS. 
 6. Click **Create skill**.
 
-![](https://github.com/AliRezaeian/alexaskill/blob/master/images/createskill1.png?raw=true)
+![](https://github.com/slalom/alexa-skill/blob/main/images/createskill1.png?raw=true)
 
 7. Select **Start from Scratch** and then click **Continue with template**.
 
-![](https://github.com/AliRezaeian/alexaskill/blob/master/images/createskill1-1.png?raw=true)
+![](https://github.com/slalom/alexa-skill/blob/main/images/createskill1-1.png?raw=true)
 
 You should be landed to the Build page.
 
-![](https://github.com/AliRezaeian/alexaskill/blob/master/images/createskill2.png?raw=true)
+![](https://github.com/slalom/alexa-skill/blob/main/images/createskill2.png?raw=true)
 
 ## Add Invocation Name
 Users say a skill's invocation name to begin an interaction with a particular custom skill.
@@ -45,11 +45,11 @@ The utterances specify the words and phrases users can say to invoke your intent
 2. Enter the name of the new intent **PlanMyTrip** and click **Create custom intent**. This adds a new intent and opens its detail page, displaying the intent's sample utterances and slots.
 3. Click **Create custom intent**
 
-![](https://github.com/AliRezaeian/alexaskill/blob/master/images/createskill3.png?raw=true)
+![](https://github.com/slalom/alexa-skill/blob/main/images/createskill3.png?raw=true)
 
 4. In the Intents Slots section, create below slots.
 
-![](https://github.com/AliRezaeian/alexaskill/blob/master/images/createskill4.png?raw=true)
+![](https://github.com/slalom/alexa-skill/blob/main/images/createskill4.png?raw=true)
 
 5. Enter below sample utterances:
  
@@ -62,7 +62,7 @@ Once you have written a few utterances, note the words or phrases that represent
 6. In an utterance, highlight the word or phrase representing the slot value.
 7. In the drop-down that appears, select the slot. This will replace the original value in the utterance with the slot name in curly brackets ({ }).
 
-![](https://github.com/AliRezaeian/alexaskill/blob/master/images/createskill5.png?raw=true)
+![](https://github.com/slalom/alexa-skill/blob/main/images/createskill5.png?raw=true)
 
 8. Click **Save Model**
 
@@ -78,11 +78,11 @@ Slots are defined with different types. The travelDate slot in the above example
 
 1. Click **Code** on the top menu.
 2. Open **index.js** file.
-3. Replace all code with the code [here](https://github.com/AliRezaeian/AlexaSkill/blob/master/index.js). 
+3. Replace all code with the code [here](https://github.com/slalom/alexa-skill/blob/main/index.js). 
 4. Click **Save**.
 5. Click **Deploy**.
 
-![](https://github.com/AliRezaeian/alexaskill/blob/master/images/createskill6.png?raw=true)
+![](https://github.com/slalom/alexa-skill/blob/main/images/createskill6.png?raw=true)
 
 ## Test you skill
 
@@ -91,7 +91,7 @@ Use the simulator provided on the Test page in the developer console. This gives
 1. Click **Test** from top menu
 2. You might get below pop-up. Click **Allow** to be able to use your microphone. 
 
-![](https://github.com/AliRezaeian/alexaskill/blob/master/images/createskill7.png?raw=true)
+![](https://github.com/slalom/alexa-skill/blob/main/images/createskill7.png?raw=true)
 
 3. Select **Development** from dropdown on top of the page
 4. In the Alexa Simulator tab, you can type or hold the mic icon to talk. 
@@ -101,7 +101,7 @@ Use the simulator provided on the Test page in the developer console. This gives
 * _ask mytravelskill i want to visit portland_
 * _ask mytravelskill i want to travel from seattle to portland next friday_
 
-![](https://github.com/AliRezaeian/alexaskill/blob/master/images/createskill8.png?raw=true)
+![](https://github.com/slalom/alexa-skill/blob/main/images/createskill8.png?raw=true)
 
 ## Endpoint
 
@@ -109,5 +109,5 @@ The Interaction Model is connected to a Lambda Function via Endpoints. Depending
 
 The Endpoint will receive POST requests when a user interacts with your Alexa Skill. You can link your Skill with Lambda (Recommended) or you can host your endpoint using an HTTPS web service that you manage.
 
-![](https://github.com/AliRezaeian/alexaskill/blob/master/images/createskill9.png?raw=true)
+![](https://github.com/slalom/alexa-skill/blob/main/images/createskill9.png?raw=true)
 
